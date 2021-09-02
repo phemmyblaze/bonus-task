@@ -4,16 +4,35 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #e5e5e5;
+}
+
 
 .heading {
     text-align: center;
     padding-top: 30px;
 }
+ h1 {
+    position: absolute;
+    width: 125px;
+    height: 35px;
+    left: 514px;
+    top: 40px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    
+    color: #000000;
+} 
 
 .main-content {
     display: flex;
     margin: 92px;
+    padding-bottom: 20px;
 }
+
 
 .content {
     padding: 0 20px;
@@ -46,17 +65,25 @@ p {
 .form {
     position: absolute;
     width: 700px;
-    height: 500px;
-    left: 151px;
+    height: 475px;
+    left: 300px;
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
 }
 
 .form-box {
-    padding:5rem;
+    padding: 3rem;
 }
 
+h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 50px;
+    color: #0D0C0C;
+}
 .contact1 {
     padding-bottom: 10px;
 }
@@ -74,7 +101,7 @@ label {
 }
 
 .textarea {
-    padding-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 
@@ -84,11 +111,11 @@ label {
     justify-content: flex-end;
 }
 .button-section button {
-  background: blue;
-  padding: 8px 40px;
+  background: rgba(0, 77, 230, 0.76);
+  padding: 5px 40px;
   color: #fff;
-  border: 1px solid #086db8;
-  border-radius: 10px 0 ;
+  border: none;
+  border-radius: 8px;
 }
 
 
